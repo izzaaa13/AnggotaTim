@@ -51,7 +51,9 @@ export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
       <div style={{ textAlign: "left", color: "#64748b", lineHeight: "2" }}>
         <p>🪪 NIM: {nim}</p>
         <p>💼 Jabatan: {jabatan}</p>
-        <p>👥 Status: {aktif ? "Aktif" : "Tidak Aktif"}</p>
+        <p>👥 Status: {aktif ? "Aktif" : "Tidak Aktif"}
+  {aktif ? " ✅" : " ⚠️"}
+</p>
       </div>
 
       <hr style={{ border: "none", borderTop: "1px solid #e2e8f0" }} />
