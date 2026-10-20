@@ -103,8 +103,10 @@
     border-bottom: 1px solid var(--border);
   }
 }
-
-#next-steps ul {
+/* efek interaktif saat tautan diarahkan kursor */
+#next-steps ul a:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
   list-style: none;
   padding: 0;
   display: flex;

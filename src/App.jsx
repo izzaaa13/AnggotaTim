@@ -10,15 +10,15 @@ export default function App() {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <h1
+      <p
         style={{
           textAlign: "center",
           color: "#1e293b",
           marginBottom: "35px",
         }}
       >
-        Daftar Anggota Tim 
-      </h1>
+        mengenal anggota tim dan peran dalam proyek kami
+      </p>
 
       <section
         style={{
