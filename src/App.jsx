@@ -1,5 +1,6 @@
 import KartuAnggota from "./components/AnggotaTim";
-// menampilkan halaman utama aplikasi anggota tim
+
+// Menampilkan halaman utama aplikasi anggota tim
 export default function App() {
   return (
     <main
@@ -10,14 +11,25 @@ export default function App() {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <p
+      <h1
         style={{
           textAlign: "center",
           color: "#1e293b",
           marginBottom: "35px",
         }}
       >
-        mengenal anggota tim dan peran dalam proyek kami
+        Daftar Anggota Tim
+      </h1>
+
+      <p
+        style={{
+          textAlign: "center",
+          color: "#64748b",
+          marginTop: "-20px",
+          marginBottom: "35px",
+        }}
+      >
+        Mengenal anggota tim dan peran dalam proyek kami.
       </p>
 
       <section
@@ -28,7 +40,6 @@ export default function App() {
           gap: "25px",
         }}
       >
-        {/* Pemanggilan pertama */}
         <KartuAnggota
           nama="afriza"
           nim="2483207001"
@@ -36,7 +47,6 @@ export default function App() {
           aktif={true}
         />
 
-        {/* Pemanggilan kedua */}
         <KartuAnggota
           nama="Audy"
           nim="2483207002"
@@ -44,7 +54,6 @@ export default function App() {
           aktif={true}
         />
 
-        {/* Pemanggilan ketiga */}
         <KartuAnggota
           nama="Angger"
           nim="2483207003"
