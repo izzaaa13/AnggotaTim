@@ -1,3 +1,4 @@
+//komponen kartu anggota tim
 export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
   return (
     <article
