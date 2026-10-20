@@ -1,5 +1,5 @@
 import KartuAnggota from "./components/AnggotaTim";
-
+// menampilkan halaman utama aplikasi anggota tim
 export default function App() {
   return (
     <main
