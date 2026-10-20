@@ -17,7 +17,7 @@ export default function App() {
           marginBottom: "35px",
         }}
       >
-        Daftar Anggota Tim
+        Daftar Anggota Tim 
       </h1>
 
       <section
