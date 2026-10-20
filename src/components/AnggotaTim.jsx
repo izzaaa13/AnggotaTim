@@ -1,15 +1,7 @@
-//komponen kartu anggota tim
+
 export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
   return (
     <article
-    onMouseEnter={(e) => {
-        e.currentTarget.style.transform = "translateY(-5px)";
-        e.currentTarget.style.boxShadow = "0 12px 30px rgba(30, 64, 175, 0.18)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = "translateY(0)";
-        e.currentTarget.style.boxShadow = "0 8px 25px rgba(30, 64, 175, 0.10)";
-      }}
       style={{
         background: "white",
         borderRadius: "20px",
@@ -19,7 +11,6 @@ export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
         boxShadow: "0 8px 25px rgba(30, 64, 175, 0.10)",
         borderTop: `6px solid ${aktif ? "#6366f1" : "#f87171"}`,
         textAlign: "center",
-        transition: "transform 0.2s, box-shadow 0.2s ease",
       }}
     >
       <div
@@ -38,22 +29,12 @@ export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
         👤
       </div>
 
-      <h2
-        style={{
-          color: "#1e293b",
-          margin: "10px 0 20px",
-          fontSize: "24px",
-        }}
-      >
-        {nama}
-      </h2>
+      <h2 style={{ color: "#1e293b" }}>{nama}</h2>
 
-      <div style={{ textAlign: "left", color: "#64748b", lineHeight: "2" }}>
+      <div style={{ textAlign: "left", color: "#64748b", lineHeight: 2 }}>
         <p>🪪 NIM: {nim}</p>
         <p>💼 Jabatan: {jabatan}</p>
-        <p>👥 Status: {aktif ? "Aktif" : "Tidak Aktif"}
-  {aktif ? " ✅" : " ⚠️"}
-</p>
+        <p>👤 Status: {aktif ? "Aktif" : "Tidak Aktif"}</p>
       </div>
 
       <hr style={{ border: "none", borderTop: "1px solid #e2e8f0" }} />
@@ -69,7 +50,7 @@ export default function KartuAnggota({ nama, nim, jabatan, aktif }) {
           marginTop: "10px",
         }}
       >
-        ● {aktif ? "Anggota Aktif" : "Tidak Aktif"}
+        {aktif ? "✓ Anggota Aktif" : "⚠ Tidak Aktif"}
       </span>
     </article>
   );
