@@ -4,7 +4,7 @@
 Daftar Anggota Tim adalah aplikasi web sederhana berbasis React dan Vite yang menampilkan informasi anggota tim dalam bentuk kartu profil. Aplikasi ini dibuat untuk mempelajari pengembangan antarmuka web menggunakan komponen React dan props.
 
 ## Screenshot Aplikasi
-![Screenshot Aplikasi Daftar Anggota Tim](Screenshot 2026-10-21 184516.png)
+![Screenshot Aplikasi Daftar Anggota Tim](Screenshot-2026-10-21-184516.png)
 
 *Catatan: Ganti gambar di atas dengan screenshot aplikasi yang benar-benar sudah diunggah ke repositori.*
 
