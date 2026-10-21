@@ -1,10 +1,11 @@
+
 import './App.css'
+import AnggotaTim from './components/AnggotaTim'
 
 function App() {
   return (
-    <main style={{ padding: '40px', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Anggota Tim</h1>
-      <p>Website berhasil ditampilkan!</p>
+    <main className="app">
+      <AnggotaTim />
     </main>
   )
 }
